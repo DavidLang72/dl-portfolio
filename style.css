@@ -1,5 +1,10 @@
 body {
-    background-color:lightskyblue
+    background-color:lightskyblue;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .header {
@@ -7,6 +12,7 @@ body {
     font-family:'Times New Roman', Times, serif;
     background-color: #6daac9;
     color: #ffffff;
+    position:sticky;
 }
 
 .header h1 {
@@ -55,7 +61,6 @@ h2 {
   }
 
 .my-work {
-    flex: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
@@ -63,14 +68,14 @@ h2 {
   }
 
 .work-examples {
+    flex: 0 0 300px;
     background-color:#ffffff;
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
     padding: 10px;
-    flex: 0 0 300px;
-    display:block;
-    justify-content: center;
+    margin:auto;
+    text-align:center;
   }
   
 .work-examples p {
@@ -78,6 +83,7 @@ h2 {
     font-size:20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+
   }
   
 .work-examples img {
@@ -85,20 +91,21 @@ h2 {
     border-style:solid;
     border-width: 1px;
     border-radius: 10px;
-    margin:auto;
-  }
+  
+}
 
-  .contact-me {
+.contact-me {
     display:flex;
     flex-wrap: wrap;
-    justify-content: center;
-  }
+    justify-content:center;
+}
 
-.Contacts {
-    width:200px;
-    font-size:24pt;
+.contact {
+    width:120px;
+    font-size:20px;
+    color:#ffffff;
+    background-color:rgb(3, 3, 39);
     border-style:double;
     border-radius:15px;
-    display:flex;
-    text-align:center;
+    text-align: center;
 }
