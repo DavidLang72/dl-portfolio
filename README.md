@@ -5,8 +5,11 @@ I resisted the urge to dive deep into the internet, locate another portfolio fro
 
 ## Screenshot
 Here is a screenshot of my Portfolio
+[Screenshot](screenshot.png "Screenshot")
+
 
 
 ## Link to Live Site
 And here is a link to the live site.  Thanks for viewing!
 
+[Portfolio](https://davidlang72.github.io/dl-portfolio/)
