@@ -69,7 +69,9 @@ h2 {
 
 .work-examples {
     flex: 0 0 300px;
-    background-color:#ffffff;
+    max-height:fit-content;
+    background-color:#2f188f;
+    color:#ffffff;
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
