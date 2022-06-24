@@ -5,7 +5,7 @@ I resisted the urge to dive deep into the internet, locate another portfolio fro
 
 ## Screenshot
 Here is a screenshot of my Portfolio
-[Screenshot](screenshot.png "Screenshot")
+[Screenshot]<img src= Screenshot.png> "Screenshot"
 
 
 
